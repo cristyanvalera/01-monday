@@ -1,0 +1,11 @@
+<h2>
+    Estos son mis proyectos
+</h2>
+
+<ul>
+    {{#each projects}}
+    <li>
+        <a href="{{url}}" target="_blank" rel="noopener noreferrer">{{name}}: </a>{{description}}
+    </li>
+    {{/each}}
+</ul>
